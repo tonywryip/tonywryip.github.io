@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	color: #777;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-header {
+	background-color: #190404;
+	background-size: cover;
+	padding-bottom: 30px;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	display: inline-block;
+	padding: .5em;
+	color: white;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.main-nav {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: lighter;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+	padding: 0 5%;
+}
+
+.page-title {
+	text-align: center;
+	margin: 0;
+	font-size: 4em;
+	font-family: "Didact Gothic";
+	font-weight: normal;
+	color: white;
+}
+
+.footer-text {
+	text-align: center;
+	margin: 0;
+	font-size: 1.5em;
+	font-family: "Didact Gothic";
+	font-weight: normal;
+	color: white;
+}
+
+.content-section {
+	margin: 1em;
+	text-align: justify;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 1.5em;
+}
+
+.section-header {
+	font-family: "Didact Gothic";
+	font-weight: normal;
+	color: #333;
+	text-align: center;
+	font-size: 3em;
+}
+
+.main-footer {
+	background-color: #190404;
+	color: white;
+	padding: .25em 0;
+}
+
+.main-footer-container {
+	display: flex;
+	align-items: center;
+}
+
+.main-footer-container ul {
+	flex-grow: 1;
+	text-align: end;
+}
+
+.footer-nav li {
+	padding: 0 .5em;
+}
+
+.footer-nav img {
+	width: 30px;
+	height: 30px;
+}
+
+.game-title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.game-image {
+	height: 250px;
+}
+
+.games {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.game {
+	position: relative;
+	margin: 30px;
+}
+
+.game .game-description {
+	position: absolute;
+	height: 250px;
+	left: 0; right: 0;
+	text-align: center;
+	padding: 40% 5% 0 5%;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.2em;
+	background: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+}
+
+.game:hover .game-description {
+	visibility: visible;
+}
+
+#about-image {
+	max-width: 100%;
+	height: auto;
+}
